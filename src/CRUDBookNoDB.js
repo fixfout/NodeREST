@@ -38,7 +38,7 @@ let books = [
             id: books.length + 1,
             title: req.body.title,
             author: req.body.author
-        };
+        }
         books.push(book);
         res.send(book);
     });
@@ -60,6 +60,6 @@ let books = [
     });
 
     const port = process.env.PORT 
-    app.listen(port, () => console.log (`Expamp app listening at http://localhost:${port}`));
+    app.listen(port, () => console.log (console.log(`Expamp app listening at http://localhost:${port}`)));
 
     

@@ -5,16 +5,26 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "dev": "nodemon src/index.js",
     "format": "prettier --write *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anirach/NodeREST.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "git+https://github.com/Anirach/NodeREST/issues"
+  },
+  "homepage": "git+https://github.com/Anirach/NodeREST#readme",
   "devDependencies": {
     "prettier": "^3.1.1"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
   }
 }
